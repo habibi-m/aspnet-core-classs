@@ -1,0 +1,17 @@
+.box {
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#classes {
+    color: slateblue;
+}
+
+#ids {
+    color: tomato;
+}
+
+#classes > P > b, #ids li > b {
+    color: goldenrod;
+}

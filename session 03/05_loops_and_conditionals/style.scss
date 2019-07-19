@@ -1,0 +1,25 @@
+
+
+@mixin avatar($size, $circle: false) {
+    width: $size;
+    height: $size;
+
+    @if $circle {
+        //@debug "$circle is #{$circle}";
+        border-radius: $size / 2;
+    } @else {
+        //@debug "$circle is #{$circle}";
+    }
+}
+
+.square-av { @include avatar(200px, $circle: false); }
+.circle-av { @include avatar(200px, $circle: true); }
+
+
+@for $i from 1 through 8 {
+    $width: percentage(1 / $i);
+
+    .col-#{$i} {
+        width: $width;
+    }
+}

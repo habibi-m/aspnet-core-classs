@@ -1,0 +1,12 @@
+div.mohsen_div {
+  border: 1px solid lightgreen; }
+  div.mohsen_div h1 {
+    color: tomato; }
+  div.mohsen_div ul {
+    border: 5px dotted violet; }
+    div.mohsen_div ul li {
+      font-weight: bold; }
+      div.mohsen_div ul li a {
+        font-style: italic; }
+
+/*# sourceMappingURL=style.css.map */

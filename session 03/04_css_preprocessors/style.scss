@@ -1,0 +1,65 @@
+
+/* Sass */
+
+// $primary-color: seashell
+// $primary-bg: darkslategrey
+
+// body
+//   color: $primary-color
+//   background: $primary-bg
+
+
+
+/* SCSS */
+$font-stack: Helvetica, sans-serif;
+$primary-color: seashell;
+$primary-bg: darkslategrey;
+
+body {
+    font: $font-stack;
+    color: $primary-color;
+    background: $primary-bg;
+}
+
+p {
+    font: $font-stack;
+}
+
+h1 {
+    font: $font-stack;
+}
+
+div.title {
+    font: $font-stack;
+}
+
+
+/* mixin rule */
+@mixin card($width, $height, $bg, $border) {
+    width: $width;
+    height: $height;
+    background: $bg;
+    border: $border;
+}
+
+
+.card-1 {
+    @include card(300px, 200px, yellow, red 2px solid);
+}
+
+.card-2 {
+    @include card(400px, 300px, lightblue, black 1px dotted);
+}
+  
+
+
+/*  extend rule */
+.class-1 {
+    width: 100%;
+    height: auto;
+}
+
+.class-2 {
+    @extend .class-1;
+}
+

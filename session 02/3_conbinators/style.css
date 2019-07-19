@@ -1,0 +1,47 @@
+
+
+/* descendant selector(space) */
+div p { /*selects all <p> elements inside <div> elements*/
+    background-color: yellow;
+}
+
+/* child selector(>) */
+div > p { /*selects all <p> elements that are immediate children of a <div> element*/
+    background-color: yellow;
+}
+
+/* adjacent sibling selector(+) */
+div + p { /*selects all <p> elements that are placed immediately after <div> elements*/
+    color: red;
+}
+
+/*general sibling selector(~) */
+div ~ p { /*selects all <p> elements that are siblings of <div> elements*/
+    background-color: yellow;
+}
+
+
+
+
+/*exercise: https://www.w3schools.com/css/css_combinators.asp*/
+
+
+a::after {
+  content: "→";
+}
+
+p::selection {
+  color: gold;
+  background-color: red;
+} 
+
+
+
+/*column combinator: The || combinator selects nodes which belong to a column*/
+col || td { /*will match all <td> elements that belong to the scope of the <col>*/
+    color: red;
+}
+/*good example: https://developer.mozilla.org/en-US/docs/Web/CSS/Column_combinator*/
+
+
+

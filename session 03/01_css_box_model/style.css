@@ -1,0 +1,20 @@
+.box {
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+.inline {
+    display: inline;   
+}
+
+.mohsen_block {
+    display: block;
+    /* margin: 20px;     */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 2px;
+    margin: 20px 10px 50px 2px;
+
+    padding: 50px;
+}

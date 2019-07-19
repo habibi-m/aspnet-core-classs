@@ -1,0 +1,18 @@
+/*example: A very simple fluid grid, based on 960px*/
+
+.container {
+    width: 100%;
+    background-color: tomato;
+}
+  
+article[role="main"] {
+    float: left;
+    width: 600px / 1000px * 100%;
+    background-color: violet;
+}
+  
+aside[role="complementary"] {
+    float: right;
+    width: 300px / 960px * 100%;
+    background-color: green;
+}

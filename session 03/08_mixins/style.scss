@@ -1,0 +1,36 @@
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.box {
+    width:100px;
+    height:30px;
+    padding:20px;
+    margin: 30px;
+    text-align:center;
+    background:#fc0;
+}
+
+.box1 {    
+    //@include transform(rotate(-20deg));
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.box2 { 
+    @include transform(rotate(-30deg));
+}
+
+@mixin hilight() {
+    padding: 5px;
+    border: 2px solid tomato;
+}
+
+.mohsen_chaghal {
+    @include hilight();
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

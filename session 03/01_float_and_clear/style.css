@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    /* float: left; */
+    opacity: .7;
+}
+.tomato {
+    background-color: tomato;
+    float: right;
+    height: 50px;
+    width: 80%
+}
+.purple {
+    background-color: purple;
+    float: left;
+    height: 800px;
+    width: 20%;
+}
+.gold {
+    background-color: gold;
+    clear: right;
+    float: right;
+    width: 80%;
+    height: 600px;
+}
+.green {
+    background-color: lightseagreen;
+    width: 80%;
+    clear: right;
+    float: right;
+    height: 150px;
+}

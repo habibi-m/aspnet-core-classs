@@ -1,0 +1,22 @@
+section > b, div > b {
+    color: blueviolet;
+}
+
+
+.class1 {
+    font-size: 20px;
+}
+
+#div1 {
+
+}
+
+
+namespace1 | * {
+
+}
+
+[data-des$="hasan"] {
+    background-color: violet;
+}
+

@@ -1,0 +1,20 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    /*flex-direction: row;*/ /*column*/
+    justify-content: space-around; /* flex-start flex-end center space-around space-between space-evenly */
+  }
+
+  .search {
+      /* margin-left: auto; */
+  }
+
+  .container > div {
+      flex: 1; /*this make divs become none-statuc width */
+  }
+
+  .container > .search {
+      flex: 2;
+  }
+  
+  
