@@ -2,11 +2,11 @@
     padding: 10px;
     text-align: center;
     font-size: 2em;
-    color: #ffeead;
+    color: #ffffff;
   }
   
   html, body {
-    background-color: #ffeead;
+    background-color: #fafaf9;
     margin: 10px;
   }
   
@@ -19,7 +19,7 @@
   }
   
   .container > div:nth-child(3) {
-    background-color: #88d8b0;
+    background-color: #8890d8;
   }
   
   
