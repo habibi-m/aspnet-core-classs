@@ -75,3 +75,10 @@ footer {
     color: white;
     padding: 5px 20px;
 }
+
+.myclass {
+    clear: both;
+    background-color: #204162;
+    color: white;
+    padding: 5px 20px;
+}
