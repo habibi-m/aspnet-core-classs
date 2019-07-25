@@ -2,36 +2,32 @@
     border: 5px solid #ffcc5c;
     display: flex;
 
+    /*flex-direction: /*column*/
 
-    /*flex-direction: row;*/ /*column*/
-
-
-    /*justify-content: flex-start;*/ /* flex-start flex-end center space-around space-between space-evenly */
+    justify-content: space-around; /* flex-start flex-end center space-around space-between space-evenly */
   }
 
 
 
   .logout {
-    /*margin-left: auto;*/
+    /* margin-right: auto; */
   }
 
   .search {
-      /*margin-left: auto;*/
+      /* margin-right: auto; */
   }
 
   .home {
       /* margin-right: auto; */
   }
 
-
-
-  .container > div {
-      /*width: 33.3333%;*/
+   .container > div {
+      /* width: 33.3333%; */
       flex: 1; /*flex-grow, flex-shrink, flex-basis */
   }
 
-  /*.search {     /*the selector dosen't work! why?
-      flex: 2;
-  }*/
-  
+ 
+  .container > div.search {
+    /*flex: 1;*/
+  }
   

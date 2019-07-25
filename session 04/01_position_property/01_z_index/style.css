@@ -2,34 +2,37 @@
 .box {
     padding: 20px;
     width: 70px;
-    position: absolute;
-
-
+    position: static;
 }
 
 #div1 {
     background-color: orange;
 
-    left: 10px;
-    top: 10px;
+    color: green;
+    /* left: 10px;
+    top: 10px; */
 
-    /* z-index: 3; */
+    z-index: 3;
+}
+
+#div1 h1 {
+    color: initial;
 }
 
 #div2 {
     background-color: lightblue;
 
-    left: 50px;
-    top: 50px;
+    /* left: 50px;
+    top: 50px; */
 
-    /* z-index: 2; */
+    z-index: 1000;
 }
 
 #div3 {
     background-color: lightgreen;
 
-    left: 90px;
-    top: 90px;
+    /* left: 90px;
+    top: 90px; */
 
-    /* z-index: 1; */
+    z-index: 1001;
 }
