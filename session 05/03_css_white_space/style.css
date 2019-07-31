@@ -1,0 +1,11 @@
+p.a {
+    white-space: nowrap;
+  }
+  
+  p.b {
+    white-space: normal;
+  }
+  
+  p.c {
+    white-space: pre;
+  }

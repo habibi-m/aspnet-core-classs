@@ -1,0 +1,23 @@
+div {
+  background-color: lightblue;
+  width: 110px;
+  height: 110px;  
+}
+
+.a {
+  /* overflow: scroll; */ /*this will add a scrollbar both horizontally and vertically */
+  /*overflow-x: hidden;*/ /* Hide horizontal scrollbar */
+  /*overflow-y: scroll;*/ /* Add vertical scrollbar */
+}
+
+.b {
+  /* overflow: hidden; */
+}
+
+.c {
+  /* overflow: auto; */
+}
+
+.d {
+  /* overflow: visible; */
+}

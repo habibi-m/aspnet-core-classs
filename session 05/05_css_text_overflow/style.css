@@ -1,0 +1,25 @@
+div {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  border: 1px solid #000000;
+}
+
+div.a {
+  text-overflow: clip; 
+}
+
+div.b {
+  text-overflow: ellipsis; 
+
+}
+
+div.c {
+  text-overflow: "----"; 
+}
+
+
+
+/*
+CHALLENGE: show entire text on hover
+*/
