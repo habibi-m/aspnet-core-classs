@@ -1,9 +1,13 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;    
-    /* flex-wrap: wrap */
+    flex-wrap: wrap;
 }
 
 .container > div {
-    width: 600px;
-}
+    width: 400px;
+} 
+
+/* .container > div {
+    flex: 1
+} */

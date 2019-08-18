@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>JavaScript Introduction</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="myscript.js"></script>
+    
+    <script>
+        
+        function TurnOff() {
+            document.getElementById('myImage').src='../../resources/images/pic_bulboff.gif';
+            var x = 10;
+        }
+
+        function TurnOn() {
+            alert(x);
+            document.getElementById('myImage').src='../../resources/images/pic_bulbon.gif';
+        }
+    </script>
+</head>
+<body>
+    <section>
+        <p id="demo">JavaScript Can Change HTML Content</p>
+        <button onclick="document.getElementById('demo').innerHTML='Hello JavaScript!'">Try it</button>
+    </section>
+
+    <section>
+        <p>JavaScript Can Change HTML Attribute Values</p>
+        <button onclick="TurnOff()">Turn off</button>
+        <button onclick="TurnOn()">Turn on</button>
+        <img id="myImage" src="../../resources/images/pic_bulboff.gif" style="width:100px">
+    </section>
+
+    <section>
+        <p id="mytitle">JavaScript Can Change HTML Styles (CSS)</p>
+        <button onclick="document.getElementById('mytitle').style.fontSize = '35px';">Try it</button>
+    </section>
+
+    <section>
+        <p id='p1'>JavaScript Can Show/Hide HTML Elements</p>
+        <button onclick="Hideit()">Hide</button>
+        <button onclick="Showit()">Show</button>
+    </section>
+
+</body>
+</html>

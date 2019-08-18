@@ -2,11 +2,11 @@
     border: 5px solid #ffcc5c;
     display: flex;
     /*flex-direction: /*column*/
-    /*justify-content: space-around;*/ /* flex-start flex-end center space-around space-between space-evenly */
+    justify-content: flex-end; /* flex-start flex-end center space-around space-between space-evenly */
     
     height: 100%;
-    align-items: stretch; /*center flex-end flex-start*/
-    /*mix with justify-content: center*/
+    align-items: center; /*center flex-end flex-start*/
+    /* justify-content: flex-end; */
   }
 
   .logout {
@@ -14,5 +14,6 @@
   }
 
   .home {
-      /* align-self: flex-end; */
+      /* align-self: flex-end;
+      margin-right: auto  */
   }

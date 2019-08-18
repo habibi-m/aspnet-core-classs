@@ -5,19 +5,19 @@ div {
 }
 
 .a {
-  /* overflow: scroll; */ /*this will add a scrollbar both horizontally and vertically */
-  /*overflow-x: hidden;*/ /* Hide horizontal scrollbar */
-  /*overflow-y: scroll;*/ /* Add vertical scrollbar */
+   /*overflow: scroll; */ /*this will add a scrollbar both horizontally and vertically */
+   overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 .b {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .c {
-  /* overflow: auto; */
+  overflow: auto;
 }
 
 .d {
-  /* overflow: visible; */
+  overflow: visible;
 }

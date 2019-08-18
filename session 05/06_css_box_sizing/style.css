@@ -11,6 +11,6 @@ div {
   border: 1px solid red;
   padding: 50px;
   
-  /* box-sizing: border-box; */
-  /* overflow: auto; */
+  box-sizing: border-box;
+  overflow: auto;
 }

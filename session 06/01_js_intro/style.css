@@ -1,0 +1,10 @@
+section {
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px purple;
+}
+
+section > p {
+    font-weight: bold;
+    color: tomato;
+}

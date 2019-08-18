@@ -1,7 +1,8 @@
 div {
   white-space: nowrap; 
-  width: 50px; 
   overflow: hidden;
+  width: 50px; 
+  
   border: 1px solid #000000;
 }
 
@@ -15,7 +16,7 @@ div.b {
 }
 
 div.c {
-  text-overflow: "----"; 
+  text-overflow: "mohsen"; 
 }
 
 

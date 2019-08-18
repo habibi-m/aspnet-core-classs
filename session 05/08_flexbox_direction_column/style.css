@@ -1,11 +1,12 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     /*pushes all the contents down to the bottom of the main axis*/
-    justify-content: center; /*has no effect if we don't specify the height explicitly. because there wont be extra spaces*/
-    height: 100%;    
+    /*justify-content: center; /*has no effect if we don't specify the height explicitly. because there wont be extra spaces*/
+    height: 100%;
+    justify-content: flex-start;
 
-    /* align-items: stretch; */
+    align-items: flex-end;
 }
