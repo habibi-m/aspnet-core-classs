@@ -1,9 +1,10 @@
 
 function AddItem() {
-    var counter = document.querySelectorAll('#list li').length;
+    //var counter = document.querySelectorAll('#list li').length;
 
-    var li = document.createElement("li");
-    li.innerHTML = `Item ${counter + 1}`;
+    var li = document.createElement('li');
+    //li.innerText = `Item ${counter + 1}`;
+    li.innerText = `Item`;
 
     document.getElementById('list').appendChild(li);
 }
@@ -13,7 +14,7 @@ function RemoveItem() {
     var list = document.getElementById("list");
 
     if (list.hasChildNodes()) {
-        list.removeChild(list.lastChild);
+        list.removeChild(list.firstChild);
     }
 }
 

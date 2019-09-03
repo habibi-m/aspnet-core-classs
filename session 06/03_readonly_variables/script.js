@@ -1,9 +1,16 @@
 function calcNumber() {
+
     const number = 42;
     
-    number = 10;
+    //number = 10;
+    const num2 = { n: 12 };
 
-    console.log(number);
+    //num2 = { n: 12, name:'hamid'};
+
+    num2.n = 30;
+
+    return num2.n;
 }
-calcNumber();
+
+console.log(calcNumber());
 
