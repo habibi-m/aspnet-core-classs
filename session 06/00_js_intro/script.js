@@ -31,3 +31,49 @@ function RemoveAll() {
 // var arr = new Array("hello", 6, {name:'hasan', age: 30}, function () {alert('hello js6')}, false, 10 + 10);
 
 // console.log(eval(arr[5]));
+
+//let name=10
+
+let sum =  11 + 2 + "3";
+let sum2 = "3" + 11 + 2;
+
+console.log(sum);
+console.log(sum2);
+
+
+let a = 10;
+let b = "10";
+
+console.log(`${a} is equal ${b}: ${a==b}`);
+
+//console.log(a + " is equal " + b + ":", a==b);
+
+
+let cars = ["206", "parse"];
+let user = {name: "ali", age:10}
+
+console.log(cars["0"]);
+console.log(user.name);
+
+function getuser(){
+    //can access user
+}
+document.getElementById
+let person = {1234: 'navid',age: 8};
+//Dot Notation
+//person.name = 'hamid';
+// Bracket Notaion
+//let nameAttr = 'name';
+//person[nameAttr] = 'hamed';
+console.log(person[123]);
+
+
+
+
+
+
+
+
+
+
+
