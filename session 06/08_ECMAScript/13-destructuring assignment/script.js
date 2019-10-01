@@ -24,7 +24,7 @@ document.write(`rest : ${rest}<br />`); // [30, 40, 50]
 
 
 const removeFirstTwo = _arr => {
-    const [ , , ,...rest] = _arr;
+    const [ , ,...rest] = _arr;
     return rest;
 }
 

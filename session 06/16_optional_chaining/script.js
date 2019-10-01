@@ -14,19 +14,20 @@
 
     let firstName;
 
-    //firstName = user.details.name.first;
-    //firstName = user.details.name.fullName; //undefined
-    //firstName = user.details.person.first; // object reference error
+    // firstName = user.details.name.first;
+    // firstName = user.details.name.fullName; //undefined
+    // firstName = user.details.person.first; // object reference error
 
-    // Checking if firstName exists
+    //Checking if firstName exists
     // if( user &&
     //     user.details &&
+    //     user.details.person &&
     //     user.details.name ) {
     //         firstName = user.details.name.first || 'stranger';
     // }
 
     // The proper solution: 
-    //firstName = user?.details?.name?.first;
+    firstName = user?.details?.name?.first;
 
     document.write(`The user first name is ${firstName}`);
 

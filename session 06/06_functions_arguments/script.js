@@ -1,9 +1,9 @@
-// //access function arguments
-// function sum(a, b, c) {
-//     console.log(arguments[0])
-//     return a + b + c;
-// }
+//access function arguments
+function sum(a, b) {
+    console.log(arguments[1])
+    return a + b + arguments[3];
+}
 
-// console.log(sum(2,6,3));
+console.log(sum(2,6));
 
 //Rest Parameters

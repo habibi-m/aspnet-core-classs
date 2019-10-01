@@ -4,11 +4,21 @@
  * 
  */
 
-var p1 = Promise.resolve("Resolve Me");
-p1.then((res) => document.write(`${res}<br/>`));
+
+// (() => {
+//     setTimeout(function(){ alert("Hello"); }, 3000);
+// })()
+ 
+
+// var p1 = Promise.resolve("Resolve Meeeee");
+
+// p1.then((a) => document.write(`${a}<br/>`));
 
 
 var p2 = new Promise(function(resolve, reject) {
-    setTimeout(() => resolve("Resolve Me 2"), 2000);
+    setTimeout(() => resolve("Resolve Me"), 5000);
 });
-p2.then((res) => document.write(`${res}<br/>`));
+
+p2.then((res) => console.log(`${res}<br/>`));
+
+console.log('here!');
