@@ -48,15 +48,6 @@ let user = { name: "mohsen", age:2 };
 map.set(user, 10); // an object key
 console.log(`${map.get(user)}`);
 
+console.log(map.has("key1") ? 'key1 Found' : 'key1 Not found');
 
 map.clear() // removes everything from the map
-
-
-
-const numbers = [7, 3, 5];
-let sum = 0;
-for(let number of numbers) {
- sum += number;
-}
-console.log(sum);
-console.log(numbers["2"]);

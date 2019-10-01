@@ -1,18 +1,24 @@
 /**
- * A set is just a going to be a list of values with no duplication inside of them
+ * A set is just a going to be a list of values with no duplication inside of them. without keys
  * 
  */
 
-var randSet = new Set();
+let nima = { name: "Nima" };
+let amin = { name: "Amin" };
+var set = new Set();
 
-randSet.add(10);
-randSet.add("word");
+set.add(10);
+set.add("word");
+set.add("word");
+set.add(nima);
+set.add(amin);
+set.add(nima);
 
 
-document.write(`Has 10 : ${randSet.has(10)}<br/>`);
-document.write(`Set Size : ${randSet.size}<br/>`);
+console.log(`Has 10 : ${set.has(10)}`);
+console.log(`Set Size : ${set.size}`);
 
-randSet.delete(10);
+for (let val of set)
+    console.log(`Set Value : ${val}`);
 
-for (let val of randSet)
-    document.write(`Set Value : ${val}<br/>`);
+console.log(set.delete(10)); // true
