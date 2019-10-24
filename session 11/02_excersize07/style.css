@@ -1,0 +1,37 @@
+
+.container {    
+    display: flex;
+    background-color:lightblue;
+    font-family: sans-serif;
+    border: 2px solid lightcyan;
+}
+
+.container > div {
+    flex: 1; /*flex-grow, flex-shrink, flex-basis */
+    border: 3px solid #ffcc5c;
+    padding: 10px;
+}
+
+.container > div > div {
+    padding: 5px;
+}
+
+
+.button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	margin-top: 20px;
+	color:#ffffff;
+	font-size:13px;
+	padding:5px 10px;
+}
+.button:hover {
+	background-color:#5cbf2a;
+}
+
+.output {
+    background-color: white;;
+    overflow: auto;
+    height: 100px;
+}

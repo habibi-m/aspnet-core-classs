@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee CRUD using Ajax</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <form id="registerEmpFrom">
+        <div class="container">
+            <div>
+                <h3>Register New Employee</h3>
+                <div>
+                    <label>Employee Name: </label>
+                    <input type="text" id="empName" required />
+                </div>
+                <div>
+                    <label>Salary:</label>
+                    <input type="number" id="salary" required />
+                </div>
+                <div>
+                    <label>Age:</label>
+                    <input type="number" id="age" required />
+                </div>                
+                <input type="submit" class="button" value="Register Employee" />
+            </div>
+            <div>
+                <h3>Output</h3>
+                <div class="output" id="registerOutput"></div>
+            </div>
+        </div>
+    </form>
+
+    <form id="readEmpFrom">
+        <div class="container">
+            <div>
+                <h3>Fetch Employee</h3>
+                <div>
+                    <label>Employee ID: </label>
+                    <input type="text" id="employeeId" required />            
+                </div>
+                <input type="submit" class="button" id="fetchEmployee" value="Fetch Employee" />
+            </div>
+            <div>
+                <h3>Output</h3>
+                <div class="output" id="readOutput"></div>
+            </div>
+        </div>
+    </form>
+
+
+    <form id="getAllEmpFrom">
+        <div class="container">
+            <div>
+                <h3>Get All Employees</h3>
+                <input type="submit" class="button" id="getAllEmployees" value="Get All Employees" />
+            </div>
+            <div>
+                <h3>Output</h3>
+                <div class="output" id="getAllOutput"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
